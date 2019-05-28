@@ -1,0 +1,149 @@
+.patitle{
+    width: 200px;
+    height: 77px;
+    line-height: 77px;
+    text-align: center;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+
+.contents{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #f8f8f8;
+}
+
+.part-form{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.part-form>ul{
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.part-form>ul>li{
+    border-bottom: 1px dashed #e0e0e0;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+}
+
+.part-name{
+    width: 30%;
+    font-size: 22px;
+    float: left;
+}
+
+.part-text{
+    width: 70%;
+    float: left;
+    position: relative;
+}
+
+.part-text>.bandName{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    text-align: right;
+    color: #6e6e6e;
+    font-size: 20px;
+    background: #f8f8f8;
+    margin-top: 20px;
+    outline: none;
+    float: left;
+}
+
+.part-text>.iconfont{
+    font-size: 32px;
+    color: #6e6e6e;
+    text-align: center;
+    font-weight: 900;
+    float: left;
+}
+
+.part-text>.part-selection{
+    display: none;
+    width: 80%;
+    height: 200px;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 998;
+    
+}
+
+.part-selection>li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #6e6e6e;
+    font-size: 18px;
+    letter-spacing: 4px;
+    background: #e0e0e0;
+}
+
+#year-choose,#month-choose{
+    width: 30%;
+}
+
+.part-text>.part-input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid #c1bcb8;
+    text-align: left;
+    color: #6e6e6e;
+    font-size: 20px;
+    background: #f8f8f8;
+    margin-top: 20px;
+    outline: none;
+    float: left;
+}
+
+.part-text>textarea{
+    float: left;
+    width: 80%;
+    height: 120px;
+    border-radius: 6px;
+    background: #f8f8f8;
+    margin-top: 20px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.submit-partAdd{
+    width: 100%;
+    margin:20px 0;
+}
+
+.submit-partAdd>a{
+    display: block;
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(#fff,#d2d5de);
+    color: #6e6e6e;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.submit-partAdd>p{
+    width:40%;
+    height: 50px;
+    line-height: 50px;
+    color: #1afa29;
+    font-size: 18px;
+    text-align: center; 
+    margin: 0 auto;
+}
+.submit-partAdd>p.check{
+    background: url(../img/check.png) left center no-repeat;
+}

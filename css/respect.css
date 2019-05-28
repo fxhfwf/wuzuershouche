@@ -1,0 +1,48 @@
+*{
+	margin: 0 auto;
+}
+body{
+	text-align: center;
+}
+.contents{
+	width: 100%;
+	height: auto;
+}
+.contents .carsTitle{
+	width: 100%;
+	height: 40px;
+	background: #eeeeee;
+	line-height: 40px;
+	text-align: left;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.contents .carsinFormation{
+	width: 100%;
+	height: auto;
+	line-height: 40px;
+}
+.contents .carsinFormation p{
+	width: 70%;
+	height: 40px;
+	text-align: left;
+	margin-top: 20px;
+}
+.contents .carsinFormation p span{
+	font-size: 18px;
+}
+.contents .payFor{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+.contents .payFor p{
+	width: 70%;
+	height: 60px;
+	text-align: left;
+	line-height:60px;
+}
+.contents .payFor p span{
+	font-size: 18px;
+	color: mediumblue;
+}

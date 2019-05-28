@@ -1,0 +1,39 @@
+.xwdt{
+	width:100%;
+	height:auto;
+	padding-bottom:30px;
+	border-bottom: solid 1px #444;
+}
+.xwdt-head{
+	height:40px;
+	line-height:40px;
+	width:100%;
+	background: url(../img/header-bg.png) repeat-x left center;
+	background-size: 2px 40px;
+}
+.xwdt-head .dt,.xwdt-head .more{
+	display: block;
+}
+.xwdt-head .dt{
+	margin-left:2%;
+	float:left;
+}
+.xwdt-head .more{
+	float:right;
+	margin-right:2%;
+}
+.xwdt li{
+	height:auto;
+	overflow: auto;
+	padding:15px 2% 8px 2%;
+	border-bottom:dashed 1px #444;
+	width:96%;
+}
+.xwdt li .xiaobiao p{
+	text-align: right;
+}
+.xwdt li .xiaobiao p span{
+	margin-left:7%;
+	display: inline-block;
+}
+

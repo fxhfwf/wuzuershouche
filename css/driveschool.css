@@ -1,0 +1,51 @@
+*{
+    scroll-behavior: smooth;
+}
+#id>a{
+    display: block;
+}
+
+#contents{
+    width: 100%;
+}
+#contents>.top{
+    height: 30px;
+    padding: 10px 0;
+}
+
+
+#contents>.con>ul>li{
+    height: 149px;
+    border-bottom: 1px solid #ddd;
+}
+
+#contents>.more{
+    width: 20%;
+    margin-left: 40%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#ref,
+#back-top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    border-radius: 5px;
+    background: #e8e8e8;
+    right: 0;
+    text-align: center;
+}
+#ref{
+    bottom: 80px;}
+
+#back-top{
+    bottom: 10px;
+}
+#ref img,
+#back-top img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}

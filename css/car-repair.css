@@ -1,0 +1,87 @@
+.contents{
+    width:100%;
+    height:750px;   
+}
+.banner{
+    width:100%;
+    height: 300px;
+}
+.banner>img{
+    width:100%;
+    height: 300px;
+}
+.one{
+    width:100%;
+    height:50px;
+    text-align: center;
+    /* background: #eee; */
+    line-height: 50px;
+}
+
+.one>img{
+    width:70px;
+    height:auto;
+    vertical-align: center;
+}
+.one>p{
+    display: inline-block;
+    font-size:20px;
+    color:#666;
+}
+.two{
+    width:100%;
+    height: 120px;
+     
+}
+.two>ul{
+    width:100%;
+    height: 80px;
+}
+.two>span{
+    display: block;
+    font-size: 20px;
+    color:#888;
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    /* background: rgb(250, 193, 193); */
+    padding-left:50px;
+}
+.two>ul>li{
+    float: left;
+    width:50%;
+    height: 40px;
+    text-align: center;
+    color:#888;
+    font-size:16px;
+}
+.two img{
+    width:20px;
+    height: auto;
+}
+.three{
+    width:100%;
+    height: 200px;
+    text-align: center;
+    border-bottom: dotted 1px #888;
+}
+.three>p{
+    width:80%;
+    /* background: #eee; */
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    font-size:14px;
+    color:#888;
+}
+.four{
+    text-align: center;
+    width:100%;
+    height: 80px;
+    line-height:80px;
+}
+.four>input{
+    width:150px;
+    height:40px; 
+    border-radius:2px;
+}

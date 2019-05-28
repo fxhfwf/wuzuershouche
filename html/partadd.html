@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/partadd.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <title>零件添加</title>
+    <script>
+        $.fn.selected = function (ulId, inputId) {
+            $(ulId).on("click", "li", function () {
+                
+                $(inputId).html($(this).text())
+                
+                $(inputId).attr('data-id', $(this).attr('data-id'))
+
+                $(this).parent("ul").slideUp(10);
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <div id="id">嘉润微车行</div>
+
+    <div id="logo-search">
+        <div class="logo"><img src="../img/public_logo.png" alt="logo"></div>
+        <div class="search">
+            <!--以下是有搜索框，有登录，有注册的头部-->
+
+            <a href="refister.html">注册</a>
+            <a href="login.html">登录</a>
+            <form action="" method="get">
+                <input type="text" name="sear">
+            </form>
+
+
+
+            <!--以下是只有登录和注册的头部
+            <a href="refister.html">注册</a>
+            <a href="login.html">登录</a>-->
+
+
+
+            <!--以下是有秦皇岛，有搜索框，有头像的头部-->
+            <a class="rentou" href="#"><img src="../img/public_touxiang.png"></a>
+            <form action="" method="get">
+                <select>
+                    <option value="秦皇岛">秦皇岛</option>
+                    <option value="秦皇岛">唐山</option>
+                    <option value="秦皇岛">石家庄</option>
+                    <option value="秦皇岛">承德</option>
+                </select>
+                <input type="text" name="sear">
+            </form>
+
+
+
+            <!--以下是有搜索框，有头像的头部
+            <a class="rentou" href="#"><img src="../img/public_touxiang.png"></a>
+            <form action="" method="get">
+                <input type="text" name="sear" >
+            </form>-->
+
+
+
+
+
+        </div>
+    </div>
+
+    <div id="con-top">
+
+        <div class="patitle">
+           <h3>零件添加</h3>
+        </div>
+
+
+        <a href="#" onclick="history.back()" class="back-last"><img src="../img/back.png" alt=""></a>
+
+        <!-- 导航 -->
+        <a class="nav" href="#" data-title="0"><img src="../img/public_zhankai.png" alt=""></a>
+        <!-- 导航 -->
+
+        <ul class="none-nav" style="right: -150px;z-index:10000">
+            <li><a href="welcome.html">首页</a></li>
+            <li><a href="inspect-car.html">检车</a></li>
+            <li><a href="carwash.html">洗车</a></li>
+            <li><a href="insure.html">保险</a></li>
+            <li><a href="repairlist.html">维护保养</a></li>
+            <li><a href="news.html">新闻发布</a></li>
+        </ul>
+    </div>
+
+    <!-- 页面内容 -->
+    <div class="contents">
+        <div class="part-form">
+            <ul>
+                <li>
+                    <p class="part-name">
+                        品牌：
+                    </p>
+                    <div class="part-text" id="brand">
+                        <div type="text" id="bandName" class="bandName">请选择</div>
+                        <i class="iconfont icon-arrow-down select-down"></i>
+                        <ul class="part-selection" id="brands">
+                            <li value="大众">大众</li>
+                            <li value="奥迪">奥迪</li>
+                            <li value="宝马">宝马</li>
+                            <li value="长安">长安</li>
+                            <li value="道奇">道奇</li>
+                            <li value="丰田">丰田</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- test -->
+                <li>
+                    <p class="part-name">
+                        配置：
+                    </p>
+                    <div class="part-text" id="config">
+                        <div type="text" class="bandName" id='configureInput'>请选择</div>
+                        <i class="iconfont icon-arrow-down select-down"></i>
+                        <ul class="part-selection" id="configure">
+                            <li data-id='1'>倒车影像系统</li>
+                            <li data-id="2">真皮座椅</li>
+                            <li data-id='3'>GPS导航系统</li>
+                            <li>全景天窗</li>
+                            <li>车载雷达</li>
+                            <li>定速巡航</li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- test end -->
+
+                <li>
+                    <p class="part-name">
+                        年份：
+                    </p>
+                    <div class="part-text" id="date">
+                        <div type="text" name="" id="year-choose" class="bandName">选择年</div>
+                        <i class="iconfont icon-arrow-down select-down"></i>
+                        <ul class="part-selection" style="left:0;width:40%" id="year">
+                            <li>1999</li>
+                            <li>2000</li>
+                            <li>2001</li>
+                            <li>2002</li>
+                            <li>2003</li>
+                            <li>2004</li>
+                            <li>2005</li>
+                            <li>2006</li>
+                            <li>2007</li>
+                            <li>2008</li>
+                            <li>2009</li>
+                            <li>2010</li>
+                            <li>2011</li>
+                            <li>2012</li>
+                            <li>2013</li>
+                            <li>2014</li>
+                            <li>2015</li>
+                            <li>2016</li>
+                            <li>2017</li>
+                            <li>2018</li>
+                            <li>2019</li>
+                        </ul>
+
+                        <div type="text" id="month-choose" class="bandName">选择月</div>
+                        <i class="iconfont icon-arrow-down select-down"></i>
+                        <ul class="part-selection" style="left:39%;width:40%" id="month">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p class="part-name" style="width:33%">
+                        所需配件：
+                    </p>
+                    <div class="part-text" style="width:67%;">
+                        <input type="text" name="" id="need" class="part-input">
+                    </div>
+                </li>
+                <li>
+                    <p class="part-name">
+                        姓名：
+                    </p>
+                    <div class="part-text">
+                        <input type="text" name="" id="userName" class="part-input">
+                    </div>
+                </li>
+                <li>
+                    <p class="part-name">
+                        电话：
+                    </p>
+                    <div class="part-text">
+                        <input type="text" name="" id="tel" class="part-input">
+                    </div>
+                </li>
+                <li style="height:160px">
+                    <p class="part-name"style="width:33%">
+                        详细要求：
+                    </p>
+                    <div class="part-text" style="width:67%;">
+                        <textarea name="" id="" cols="10" rows="5"></textarea>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="submit-partAdd">
+                <a href="#" id="submit-button">发布</a>
+                <p class="alert"></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- 页面内容 -->
+
+    <div id="bottom">
+        <p>Copy Right 2015 QHD二手车版权所有</p>
+        <p>意见反馈</p>
+    </div>
+
+    <script>
+
+        $(".select-down").click(function () {
+            $(this).next().slideDown(500);
+        })
+
+        $("#brand").selected("#brands", "#bandName");
+        $("#config").selected("#configure", "#configureInput");
+        $("#date").selected("#year", "#year-choose");
+        $("#date").selected("#month", "#month-choose");
+
+
+        $("#submit-button").click(function(){
+
+            var partsPre= /^([^0-9]|\w|_){6,30}$/;
+            var namePre = /[^\x00-\x80]/ ;
+            var telPre = /^(13|15|17|18|19)\d{9}$/
+
+            var parts = $("#need").val();
+            var name = $("#userName").val()
+            var tel = $("#tel").val();
+
+            if(!partsPre.test(parts) || parts===""){
+                // debugger;
+                
+                $("#need").val("");
+                $("#need").focus();
+                $("#need").attr("placeholder","格式错误");
+                
+                return false;
+            }
+
+            if(!namePre.test(name) || name===""){
+                $("#userName").val("");
+                $("#userName").attr("placeholder","格式错误");
+                $("#userName").focus();
+                return false;
+            }
+
+            if(!telPre.test(tel) || tel===""){
+                $("#tel").val("");
+                $("#tel").attr("placeholder","格式错误");
+                $("#tel").focus();
+                return false;
+            }
+
+            $(".alert").html("发布成功");
+            $(".alert").attr("class","check");
+            
+
+        })
+        
+    </script>
+
+
+
+
+    <script src="../js/public.js"></script>
+</body>
+
+</html>

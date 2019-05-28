@@ -1,0 +1,55 @@
+#contents a:hover{
+    background: #777;
+    display: block;
+}
+#contents>.top>ul>li{
+    width: 33%;
+    height: 29px;
+    float: left;
+    line-height: 29px;
+    border-right: 1px solid #ddd;
+}
+#contents>.top>ul>li>a{
+    display: block;
+    width: 80%;
+    font-size: 1.1em;
+    padding-left: 20%;
+    background: url(../img/driveschool_xiala.png) no-repeat center right;
+    background-size: 25px 25px;
+}
+#contents>.top>ul>li>ul{
+    display: none;
+    position: relative;
+    z-index: 1000;
+    left: 6.6%;
+}
+#contents>.top>ul>li>ul>li{
+    width: 80px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 1em;
+    background: #eee;
+    border-bottom: 1px solid #fff;
+}
+
+#contents>.con>ul>li>img{
+    width: 40%;
+    height: 70%;
+    display: block;
+    float: left;
+    padding: 6% 3%;
+}
+#contents>.con>ul>li>.det{
+    width: 48%;
+    float: right;
+    height: 70%;
+    padding: 6% 3%;
+}
+#contents>.con>ul>li>.det>p{
+    margin-bottom: 10px;
+}
+
+.sch-name{
+    color: #1b65c6;
+    font-size: 1.2em;
+}

@@ -1,0 +1,24 @@
+*{
+    scroll-behavior: smooth;
+}
+#id>a{
+    display: block;
+}
+
+
+
+#contents{
+    width: 100%;
+}
+#contents>img{
+    width: 100%;
+}
+#contents>.top{
+    height: 30px;
+    padding: 10px 0;
+}
+
+#contents>.con>ul>li{
+    height: 149px;
+    border-bottom: 1px solid #ddd;
+}

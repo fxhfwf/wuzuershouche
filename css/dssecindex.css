@@ -1,0 +1,63 @@
+.jxdt,.hzjx{
+	width:100%;
+	height:auto;	
+}
+.jxdt{
+	padding-bottom:30px;
+	border-bottom: solid 1px #444;
+}
+.jxdt-head,.hzjx-head{
+	height:40px;
+	line-height:40px;
+	width:100%;
+	background: url(../img/header-bg.png) repeat-x left center;
+	background-size: 2px 40px;
+}
+.jxdt-head .dt,.jxdt-head .more,.hzjx-head .dt,.hzjx-head .more{
+	display: block;
+}
+.jxdt-head .dt,.hzjx-head .dt{
+	margin-left:2%;
+	float:left;
+}
+.jxdt-head .more,.hzjx-head .more{
+	float:right;
+	margin-right:2%;
+}
+.jxdt li{
+	height:auto;
+	overflow: auto;
+	padding:15px 2% 8px 2%;
+	border-bottom:dashed 1px #444;
+	width:96%;
+}
+.jxdt li .xiaobiao p{
+	text-align: right;
+}
+.jxdt li .xiaobiao p span{
+	margin-left:7%;
+	display: inline-block;
+}
+.hzjx li{
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:auto;
+	padding:7px 0px;
+}
+.hzjx li .jx-img{
+	width:40%;
+	height:auto;
+	float:left;
+	margin:0px 2%;
+}
+.hzjx li .jx-img img{
+	width:100%;
+}
+.hzjx li .jx-descript{
+	width:56%;
+	height:auto;
+	float:right;
+}
+
+

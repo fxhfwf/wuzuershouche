@@ -1,0 +1,63 @@
+.xctj,.xwzx{
+	width:100%;
+	height:auto;	
+}
+.xwzx{
+	padding-bottom:30px;
+	border-bottom: solid 1px #444;
+}
+.xctj-head,.xwzx-head{
+	height:40px;
+	line-height:40px;
+	width:100%;
+	background: url(../img/header-bg.png) repeat-x left center;
+	background-size: 2px 40px;
+}
+.xctj-head .dt,.xwzx .more,.xwzx-head .dt,.xctj-head .more{
+	display: block;
+}
+.xctj-head .dt,.xwzx-head .dt{
+	margin-left:2%;
+	float:left;
+}
+.xctj-head .more,.xwzx-head .more{
+	float:right;
+	margin-right:2%;
+}
+.xwzx li{
+	height:auto;
+	overflow: auto;
+	padding:15px 2% 8px 2%;
+	border-bottom:dashed 1px #444;
+	width:96%;
+}
+.xwzx li .xiaobiao p{
+	text-align: right;
+}
+.xwzx li .xiaobiao p span{
+	margin-left:7%;
+	display: inline-block;
+}
+.xctj li{
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:auto;
+	padding:7px 0px;
+}
+.xctj li .jx-img{
+	width:40%;
+	height:auto;
+	float:left;
+	margin:0px 2%;
+}
+.xctj li .jx-img img{
+	width:100%;
+}
+.xctj li .jx-descript{
+	width:56%;
+	height:auto;
+	float:right;
+}
+
+
